@@ -6,156 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="456ac6ae-fcbd-4b88-b215-329c5f679c56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_web_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_web_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/maven_ssm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Tomcat_8_5_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven_ssm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_dao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_dao/src/main/java/com/itheima/dao/ItemsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_dao/src/main/resources/com/itheima/dao/ItemsDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_dao/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_dao/src/main/resources/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_dao/src/test/java/com/itheima/test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_dao/ssm_dao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/itheima/dao/ItemsDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/com/itheima/dao/ItemsDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_dao/target/classes/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_dao/target/test-classes/com/itheima/test01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_model/src/main/java/com/itheima/poji/Items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_model/ssm_model.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_model/target/classes/com/itheima/poji/Items.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_model/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_model/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_model/target/ssm_model-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/com/itheima/service/Impl/ItemsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/com/itheima/service/ItemsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/resources/spring-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_service/src/test/java/com/itheima/test/TestItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_service/ssm_service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/itheima/converter/DateConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/itheima/service/Impl/ItemsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/com/itheima/service/ItemsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_service/target/classes/spring-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_service/target/test-classes/com/itheima/test/TestItems.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/artifacts/ssm_web_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/artifacts/ssm_web_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/libraries/Maven__com_itheima_ssm_service_1_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/libraries/Maven__org_springframework_spring_web_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/java/com/itheima/controller/ItemsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/java/com/itheima/converter/DateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/resources/spring_mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/pages/items.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/items.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/ssm_web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/classes/com/itheima/controller/ItemsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/classes/com/itheima/converter/DateConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/classes/spring_mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/classes/com/itheima/controller/ItemsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/classes/spring_mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.18.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/ssm_dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/ssm_model-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/lib/ssm_service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/pages/items.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/ssm_web-1.0-SNAPSHOT/items.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/tomcat/conf/logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/tomcat/conf/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/tomcat/logs/access_log.2021-09-13" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/items_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/items_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/items_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/items_jsp.java" afterDir="false" />
+    <list default="true" id="456ac6ae-fcbd-4b88-b215-329c5f679c56" name="Default Changelist" comment="idea使用git进行版本控制">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,6 +60,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -416,12 +271,25 @@
       <workItem from="1631522111370" duration="4407000" />
       <workItem from="1631526576847" duration="695000" />
       <workItem from="1631527378584" duration="2854000" />
-      <workItem from="1631533528484" duration="13855000" />
+      <workItem from="1631533528484" duration="16518000" />
+      <workItem from="1631603342800" duration="3850000" />
     </task>
+    <task id="LOCAL-00001" summary="idea使用git进行版本控制">
+      <created>1631591966988</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631591966988</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="idea使用git进行版本控制" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea使用git进行版本控制" />
   </component>
   <component name="WindowStateProjectService">
     <state x="251" y="0" key="#Project_Structure" timestamp="1631533340598">
@@ -440,10 +308,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="284" y="325" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1631540778789" />
-    <state x="524" y="153" key="FileChooserDialogImpl" timestamp="1631591850974">
+    <state x="382" y="62" width="802" height="742" key="CommitChangelistDialog2" timestamp="1631607712554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="524" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1631591850974" />
+    <state x="382" y="62" width="802" height="742" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1631607712554" />
+    <state x="524" y="153" key="FileChooserDialogImpl" timestamp="1631609297346">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1631609297346" />
     <state width="1493" height="142" key="GridCell.Tab.0.bottom" timestamp="1631591182635">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -492,10 +364,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1235" height="160" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1631536439319" />
-    <state x="210" y="114" key="SettingsEditor" timestamp="1631591770970">
+    <state x="301" y="0" key="SettingsEditor" timestamp="1631610095098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="210" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1631591770970" />
+    <state x="301" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1631610095098" />
+    <state x="729" y="553" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1631592808168">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="729" y="553" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1631592808168" />
     <state x="356" y="146" key="new project wizard" timestamp="1631504286426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
