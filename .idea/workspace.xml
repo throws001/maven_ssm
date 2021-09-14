@@ -6,11 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="456ac6ae-fcbd-4b88-b215-329c5f679c56" name="Default Changelist" comment="" />
+    <list default="true" id="456ac6ae-fcbd-4b88-b215-329c5f679c56" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,7 +68,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -268,7 +273,7 @@
       <workItem from="1631526576847" duration="695000" />
       <workItem from="1631527378584" duration="2854000" />
       <workItem from="1631533528484" duration="16518000" />
-      <workItem from="1631603342800" duration="4905000" />
+      <workItem from="1631603342800" duration="5913000" />
     </task>
     <task id="LOCAL-00001" summary="idea使用git进行版本控制">
       <created>1631591966988</created>
@@ -291,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631610894164</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="idea使用git进行版本控制">
+      <created>1631611204891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631611204891</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,14 +330,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="284" y="325" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1631540778789" />
-    <state x="374" y="24" width="802" height="742" key="CommitChangelistDialog2" timestamp="1631610893748">
+    <state x="374" y="24" width="802" height="742" key="CommitChangelistDialog2" timestamp="1631611204473">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="374" y="24" width="802" height="742" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1631610893748" />
-    <state x="524" y="153" key="FileChooserDialogImpl" timestamp="1631609297346">
+    <state x="374" y="24" width="802" height="742" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1631611204473" />
+    <state x="524" y="153" key="FileChooserDialogImpl" timestamp="1631611488098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="524" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1631609297346" />
+    <state x="524" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1631611488098" />
     <state x="410" y="310" width="491" height="210" key="Github.ShareDialog" timestamp="1631610800081">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -378,14 +390,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1235" height="160" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1631536439319" />
-    <state x="301" y="0" key="SettingsEditor" timestamp="1631610870329">
+    <state x="301" y="0" key="SettingsEditor" timestamp="1631612175110">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="301" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1631610870329" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1631610895610">
+    <state x="301" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1631612175110" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1631611206137">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1631610895610" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1631611206137" />
     <state x="729" y="553" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1631592808168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -398,6 +410,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="451" y="104" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1631525520807" />
+    <state x="599" y="203" key="svn.repositoryBrowser" timestamp="1631611483108">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="599" y="203" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1631611483108" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
