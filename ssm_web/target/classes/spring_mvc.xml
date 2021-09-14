@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+         <!--   开启扫描包-->
+                      <context:component-scan base-package="com.itheima"/>
+                  <!--    开启mvc的注解开发-->
+                      <mvc:annotation-driven conversion-service="cs"/>
+
+                  <!--   视图解析器-->
+                  <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+                      <property name="prefix" value="/WEB-INF/pages/"/>
+                      <property name="suffix" value=".jsp"/>
+                  </bean>
+
+                  <!--   静态资源的配置：让springMvc不处理静态资源-->
+                      <mvc:default-servlet-handler/>
+              <!--   中文乱码处理-->
+                  <mvc:annotation-driven>
+                      <!--设置消息转换器-->
+                      <mvc:message-converters>
+                          <!--设置从后端给前端返回的字符串的消息转换器，设置它的转换的编码-->
+                          <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                              <property name="defaultCharset" value="utf-8"/>
+
+                              <!--针对不同的数据类型，设置不同的编码-->
+                              <property name="supportedMediaTypes">
+                                  <list>
+                                      <value>text/html;charset=utf-8</value>
+                                      <value>application/json;charset=utf-8</value>
+                                  </list>
+                              </property>
+                          </bean>
+                      </mvc:message-converters>
+         <!--            开启注解扫描-->
+                  </mvc:annotation-driven >
+         <!--    导入applicationContext.xml-->
+             <import resource="spring-service.xml" />
+    <!--        自定义类型转换器-->
+    <bean id="cs" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <!--        把我们自己的的日期转换类对象，填充到转换器对象，填充到转化服务工厂的集合里面，让springmvc，能够识别到我们的这个转化器-->
+        <property name="converters">
+            <bean class="com.itheima.converter.DateConverter"/>
+        </property>
+
+    </bean>
+
+
+</beans>
