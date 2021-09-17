@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+    <link rel="stylesheet" href="../plugins/elementui/index.css">
+    <script src="../js/vue.js"></script>
+    <script src="../plugins/elementui/index.js"></script>
+
+</head>
+
+<body>
+<div id="app">
+    <el-table :data="tableData"  border style="width: 100%">
+        <el-table-column prop="date" label="日期" width="180">
+        </el-table-column>
+        <el-table-column prop="name" label="姓名" width="180">
+        </el-table-column>
+        <el-table-column prop="address" label="地址">
+        </el-table-column>
+    </el-table>
+<!--    分页工具栏-->
+    <el-pagination
+            @size-change="handleSizeChange"
+            @current-change="handleCurrentChange"
+            :current-page="currentPage4"
+            :page-sizes="[50, 200, 300, 400]"
+            :page-size="50"
+            layout="total, sizes, prev, pager, next, jumper"
+            :total="400">
+    </el-pagination>
+
+    <el-button :plain="true" @click="open1">消息</el-button>
+    <el-button :plain="true" @click="open2">成功</el-button>
+    <el-button :plain="true" @click="open3">警告</el-button>
+    <el-button :plain="true" @click="open4">错误</el-button>
+
+
+
+</div>
+
+   <script>
+       var vm = new Vue({
+       //指定vue使用的区域   不建议指定为body
+       el:"#app",
+       //声明数据，1.可以封装请求参数，2.接收响应数据
+           data: {
+               tableData: [],
+               currentPage4:1,
+               total:400,
+           },
+       checked(){
+          //vue对象创建后执行
+       },
+       mounted(){
+           //vue挂载成功后，把vue语法转成html内容，并且运用到html文档document。
+       },
+        methods:{
+            handleSizeChange(val) {
+                console.log(`每页 ${val} 条`);
+            },
+            handleCurrentChange(val) {
+                console.log(`当前页: ${val}`);
+            },
+
+            open1() {
+                this.$message({
+                    showClose: true,
+                    message: '这是一条消息提示'
+                });
+            },
+            open2() {
+                this.$message({
+                    showClose: true,
+                    message: '恭喜你，这是一条成功消息',
+                    type: 'success'
+                });
+            },
+            open3() {
+                this.$message({
+                    showClose: true,
+                    message: '警告哦，这是一条警告消息',
+                    type: 'warning'
+                });
+            },
+            open4() {
+                this.$message({
+                    showClose: true,
+                    message: '错了哦，这是一条错误消息',
+                    type: 'error'
+                });
+            }
+
+        },
+       });
+   </script>
+</body>
+</html>

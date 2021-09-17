@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+        <plugins>
+            <!-- com.github.pagehelper 为 PageHelper 类所在包名 -->
+            <plugin interceptor="com.github.pagehelper.PageHelper">
+                <!-- 设置数据库类型 Oracle,Mysql,MariaDB,SQLite,Hsqldb,PostgreSQL 六种数据库-->
+                <property name="dialect" value="mysql"/>
+            </plugin>
+        </plugins>
+
+    <!--配置两个部分的内容： 环境（数据库连接） &  映射文件扫描包路径-->
+    <environments default="dev">
+        <environment id="dev">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/czjk"/>
+                <property name="username" value="root"/>
+                <property name="password" value="1234"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--扫描包-->
+    <mappers>
+        <package name="com.itheima.dao"/>
+    </mappers>
+
+</configuration>
