@@ -6,7 +6,6 @@ import com.itheima.entity.QueryPageBean;
 import com.itheima.entity.Result;
 import com.itheima.pojo.CheckGroup;
 import com.itheima.service.CheckGroupSevcie;
-import org.apache.ibatis.annotations.Delete;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
@@ -14,6 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/checkgroup")
 public class CheckGroupController {
+
     @Autowired
     private CheckGroupSevcie checkGroupSevcie;
 

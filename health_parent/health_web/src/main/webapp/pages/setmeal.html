@@ -387,7 +387,6 @@
                 },
                 //上传图片之前执行
                 beforeAvatarUpload(file) {
-
 				  const isJPG = file.type === 'image/jpeg';
 				  const isLt2M = file.size / 1024 / 1024 < 2;
 				  if (!isJPG) {
@@ -397,15 +396,30 @@
 					this.$message.error('上传套餐图片大小不能超过 2MB!');
 				  }
 				  return isJPG && isLt2M;
-
                 },
                 //添加
                 handleAdd () {
-
+                    //发送请求，携带数据 id 和json
+                       //发送axiso查询请求的检查项
+                    axios.post(`/setmeal/add.do?checkgroupIds=`+this.checkgroupIds,this.formData).then(res=>{
+                        //提示操作是结果  //获取后台的响应结果
+                        // 不管成功和失败都响应数据
+                        this.$message({
+                            message:res.data.message,
+                            type:res.data.flag ? 'success':'error'
+                        });
+                        if(res.data.flag){
+                            //关闭弹窗
+                            this.dialogFormVisible=false;
+                            //清空数据
+                            this.resetForm();
+                            //成功刷新数据
+                            this.findPage();
+                             }
+                        })
                 },
                 //分页查询
                 findPage() {
-
 
                 },
                 //编辑

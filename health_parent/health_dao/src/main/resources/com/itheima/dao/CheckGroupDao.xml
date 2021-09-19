@@ -61,9 +61,9 @@
     <delete id="deleteBycheckitem" parameterType="int">
            delete from t_checkgroup_checkitem where checkgroup_id=#{id}
     </delete>
-    <select id="findAll" resultType="checkGroup" >
-        select* from t_checkgroup
-  </select>
 
+    <select id="findAll" resultType="checkGroup" >
+        select * from t_checkgroup
+  </select>
 
 </mapper>
