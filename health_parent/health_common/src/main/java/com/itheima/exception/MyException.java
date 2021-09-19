@@ -1,7 +1,5 @@
 package com.itheima.exception;
 
-import org.springframework.web.bind.annotation.RestControllerAdvice;
-
 //@RestControllerAdvice
 //对conteoller方法的增强advice
 public class MyException extends RuntimeException {
@@ -12,4 +10,5 @@ public class MyException extends RuntimeException {
     public MyException(String messaeg){
         super(messaeg);
     }
+
 }

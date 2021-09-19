@@ -1,6 +1,7 @@
 package com.itheima.pojo;
 
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * 体检套餐
@@ -16,14 +17,14 @@ public class Setmeal implements Serializable {
     private String remark;
     private String attention;
     private String img;//套餐对应图片存储路径
-//    private List<CheckGroup> checkGroups;//体检套餐对应的检查组，多对多关系
-//
-//    public List<CheckGroup> getCheckGroups() {
-//        return checkGroups;
-//    }
-//    public void setCheckGroups(List<CheckGroup> checkGroups) {
-//        this.checkGroups = checkGroups;
-//    }
+    private List<CheckGroup> checkGroups;//体检套餐对应的检查组，多对多关系
+
+    public List<CheckGroup> getCheckGroups() {
+        return checkGroups;
+    }
+    public void setCheckGroups(List<CheckGroup> checkGroups) {
+        this.checkGroups = checkGroups;
+    }
     public Integer getId() {
         return id;
     }

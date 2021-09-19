@@ -28,7 +28,7 @@
                 <div class="box">
                     <div class="filter-container">
                         <el-input placeholder="项目编码/项目名称" v-model="pagination.queryString" style="width: 200px;" class="filter-item"></el-input>
-                        <el-button @click="findPage()" class="dalfBut">查询</el-button>
+                        <el-button @click="handleCurrentChange(1)" class="dalfBut">查询</el-button>
                         <el-button type="primary" class="butT" @click="handleCreate()">新建</el-button>
                     </div>
                     <el-table size="small" current-row-key="id" :data="dataList" stripe highlight-current-row>
@@ -177,7 +177,7 @@
                                 </el-row>
                                 <el-row>
                                     <el-col :span="24">
-                                        <el-form-item label="项目说明">
+                                        handleEdit                            <el-form-item label="项目说明">
                                             <el-input v-model="formData.remark" type="textarea"></el-input>
                                         </el-form-item>
                                     </el-col>
@@ -231,6 +231,31 @@
             methods: {
                 //编辑
                 handleEdit() {
+                    this.$refs['dataEditForm'].validate((valid) => {
+                        //所有的form表单检验通过，才是true
+                        if (valid) {
+                            //提交，发送axios
+                            //点击确定时发送请求
+                            //发送数据到后台 用post
+                            //发送axiso查询请求的检查项
+                            axios.put(`/checkitem/${this.formData.id}.do`,this.formData).then(res=>{
+                                //提示操作是结果  //获取后台的响应结果
+                                this.$message({
+                                    //不管成功还是失败都响应数据
+                                    message: res.data.message,
+                                    type: res.data.flag ? 'success' : 'error'
+                                });
+                                if (res.data.flag) {
+                                    //成功 刷新表记录 重新查询数据
+                                    //关闭窗口
+                                    this.dialogFormVisible4Edit = false;
+                                    //刷新列表数据
+                                    this.findPage();
+                                }
+                            })
+                        }
+                    });
+
                 },
                 //添加
                 handleAdd() {
@@ -257,47 +282,108 @@
                                 this.findPage();
                             }
                         })
-
                         }
                     });
                 },
-
-
                 //分页查询
                 findPage() {
-                    //发送axiso查询请求的检查项
-                    axios.get("/checkitem/findAll.do").then(res => {
-                        //获取后台响应数据的结果result
-                        var result = res.data;
-                        //判断如果成功就绑定数据
-                        if (result.flag) {
-                            this.dataList = result.data;
-                        } else {
-                            this.$message.error(result.message);
+                    axios.post("/checkitem/findPage.do",this.pagination).then(res=>{
+                        if (res.data.flag){
+                            //res.data=result
+                            //flag：
+                            //message
+                            //data：{总记录 ：total
+                                //rows：结果集
+                            // }
+                         //成功绑定数据 表数据和总记录数
+                             this.dataList=res.data.data.rows
+                            this.pagination.total=res.data.data.total;
+                        }else {
+                            this.$messag.error(res.data.message);
                         }
                     })
+                    //发送axiso查询请求的检查项
+                    // axios.get("/checkitem/findAll.do").then(res => {
+                    //     //获取后台响应数据的结果result
+                    //     var result = res.data;
+                    //     //判断如果成功就绑定数据
+                    //     if (result.flag) {
+                    //         this.dataList = result.data;
+                    //     } else {
+                    //         this.$message.error(result.message);
+                    //     }
+                    // })
                 },
                 // 重置表单
                 resetForm() {
+                    //重置表单
+                    this.formData = {};
                 },
                 // 弹出添加窗口
                 handleCreate() {
                     //点击新建 弹出消息窗口
+                    this.resetForm();
                     this.dialogFormVisible = true;
-                    //重置表单
-                    this.formData = {};
+
+
                 },
                 // 弹出编辑窗口
                 handleUpdate(row) {
+                    //弹出编辑框
+                    this.dialogFormVisible4Edit=true;
+                    //重置表单
+                    this.resetForm();
+                    //获得编辑的id ，发送请求查询数据
+                       //发送axiso查询请求的检查项
+                            var id = row.id;
+                          axios.get(`/checkitem/${id}.do`).then(res=>{
+                              if (res.data.flag){
+                                  //绑定数据
+                                  this.formData= res.data.data;
+                              }else{
+                                  this.$message({
+                                      message:res.data.message,
+                                      type:'error'
+                                  });
+                              }
+                          })
+                            //点击确定  发送数据到后台
+                            //更改数据 重新分页查询
+
+                          if(res.data.flag){
+                             //成功重新查询数据
+                              this.findPage();
+                          }
                 },
                 //切换页码
                 handleCurrentChange(currentPage) {
+                    //currentChange 切换后的页码
+                    this.pagination.currentPage=currentPage;
+                    //分页查询
+                    this.findPage();
                 },
-                // 删除
                 handleDelete(row) {
+                    var id = row.id;
+                    this.$confirm(`此操作将【永久删除】检查项【${row.name}】, 是否继续?`, '提示', {
+                        confirmButtonText: '确定',
+                        cancelButtonText: '取消',
+                        type: 'warning'
+                    }).then(() => {
+                            // 删除
+                            //发送请求 携带id 根据id删除数据
+                            //发送axiso查询请求的检查项
+                            axios.delete(`/checkitem/${id}.do`).then(res=>{
+                                //提示操作是结果  //获取后台的响应结果
+                                if(res.data.flag){
+                                    //成功重新查询数据
+                                    this.findPage();
+                                }else {
+                                    this.$message(res.data.message)
+                                }
+                            });
+                        });
                 }
             }
-
         })
     </script>
 
